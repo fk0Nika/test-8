@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 .container {
 	width: 100%;
 	max-width: 1200px;
-	margin: 0 auto;
+	margin: 50px auto;
 }
 
 /*header*/
@@ -155,7 +155,74 @@ h1, h2, h3, h4, h5, h6 {
 
 .intro__item img {
 	max-width: 650px;
+	margin: auto 300px;
 }
+
+/* who-we-are */
+
+.who-we-are__suptitle {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #A3F2CA;
+	margin-bottom: 20px;
+}
+
+.who-we-are__title {
+	font-weight: 700;
+	font-size: 42px;
+	line-height: 42px;
+	text-align: center;
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.who-we-are__inner {
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+	margin-top: 50px;
+}
+
+/* inner */
+
+.inner {
+	width: 30%;
+}
+
+.inner__img {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 30%;
+}
+
+.inner__img:first-child {
+	margin-top: 50px;
+}
+
+.inner__img img {
+	margin-bottom: 90px;
+}
+
+.inner__title {
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	color: #fff;
+	margin-bottom: 15px;
+}
+
+.inner__text {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #747576;
+	margin-bottom: 15px;
+}
+
 
 /* footer */
 
@@ -166,5 +233,3 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 14px;
 	color: #333;
 }
-
-#A3F2CA
