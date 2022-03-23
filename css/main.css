@@ -19,7 +19,15 @@ h1, h2, h3, h4, h5, h6 {
 .container {
 	width: 100%;
 	max-width: 1200px;
-	margin: 50px auto;
+	margin: 100px auto;
+}
+
+.container:first-child {
+	margin-top: 0;
+}
+
+.container-mb-100 {
+	margin-bottom: -100px;
 }
 
 /*header*/
@@ -178,6 +186,11 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 20px;
 }
 
+.title-opacity {
+	margin-top: 70px;
+	opacity: 0.8;
+}
+
 /* who-we-are */
 
 .who-we-are__inner {
@@ -250,6 +263,12 @@ h1, h2, h3, h4, h5, h6 {
 	margin: 10px;
 }
 
+.blog__item img {
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 20px;
+}
+
 .item__title {
 	font-weight: 700;
 	font-size: 26px;
@@ -264,6 +283,10 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 20px;
 	line-height: 26px;
 	color: #FFFFFF;
+}
+
+.welcome {
+	margin: 300px auto;
 }
 
 
