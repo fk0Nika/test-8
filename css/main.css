@@ -158,9 +158,9 @@ h1, h2, h3, h4, h5, h6 {
 	margin: auto 300px;
 }
 
-/* who-we-are */
+/*suptitle & title*/
 
-.who-we-are__suptitle {
+.suptitle {
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 22px;
@@ -169,7 +169,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 20px;
 }
 
-.who-we-are__title {
+.title {
 	font-weight: 700;
 	font-size: 42px;
 	line-height: 42px;
@@ -177,6 +177,8 @@ h1, h2, h3, h4, h5, h6 {
 	color: #fff;
 	margin-bottom: 20px;
 }
+
+/* who-we-are */
 
 .who-we-are__inner {
 	display: flex;
@@ -221,6 +223,47 @@ h1, h2, h3, h4, h5, h6 {
 	line-height: 17px;
 	color: #747576;
 	margin-bottom: 15px;
+}
+
+/*business*/
+
+.business__inner {
+	margin: 50px auto;
+}
+
+.business__img img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 30%;
+	margin: 10px;
+}
+
+.business__blog {
+}
+
+.blog__item {
+	display: inline-block;
+	width: 30%;
+	height: 30%;
+	border: 1px solid #FFFFFF;
+	padding: 20px 15px;
+	margin: 10px;
+}
+
+.item__title {
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 30px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-bottom: 20px;
+}
+
+.item__text {
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 26px;
+	color: #FFFFFF;
 }
 
 
